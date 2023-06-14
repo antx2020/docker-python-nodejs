@@ -24,10 +24,10 @@ def build_version_fixture() -> BuildVersion:
         key="python3.11-nodejs20",
         python="3.11",
         python_canonical="3.11.3",
-        python_image="3.11.3-buster",
+        python_image="3.11.3-bookworm",
         nodejs="20",
         nodejs_canonical="20.2.0",
-        distro="buster",
+        distro="bookworm",
         platforms=[
             "linux/amd64",
             "linux/arm64",
